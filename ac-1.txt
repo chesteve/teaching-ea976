@@ -7,15 +7,24 @@ e responda às seguintes questões:
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
 	Resposta:
+	The Standish Group (1994) - 31% cancelados e 53% tiveram problemas (tempo e/ou custo maior que o previsto, funcionabilidade reduzida)
+	Linberg (1999) - 20% falharam, 46% tiveram problemas
+	Standish Group (2007) - 65% falharam
+	CHAOS (2007) - 31% falharam, 46% tiveram problemas
+	
+	Esses valores não são muito confiáveis pela própria discrepância entre eles e, segundo o artigo, os testes do The Standish Group foram considerados não consistentes com outros estudos, e sua metodologia questionável.
 
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
 	Resposta:
+	Project underestimated / Staff added late
+	Se o projeto foi subestimado (dificuldade técnica, número de pessoas trabalhando necessário para termina-lo a tempo, etc), é possível que mais pessoas tenham sido incluidas depois para trabalhar nesse projeto, afim de conclui-lo como o inicialmente combinado com o cliente. Isso pode ser problemático e influenciar no projeto final, pois as pessoas que foram incluidas depois precisam ficar a par do que está sendo desenvolvido, o que toma tempo, além de representarem um custo a mais. Também pode dificultar o trabalho em equipe o fato destas pessoas não estarem desde o início e desde o planejamento do projeto.
 
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
 	Resposta:
+	Segundo os autores, em 81% dos casos por eles estudados, as estimativas foram mal feitas, o que causa por sua vez toda sorte de problemas que podem levar o projeto a falhar. Para melhorar essa situação, é necessário que clientes passem tempo com os desenvolvedores para definir as requisições realisticamente. Com isso, os projetos não seria subestimados e a quantidade necessária de tempo, staff e dinheiro seria desginada, evitando a maioria dos problemas apontados. É necessário, também, que empresas conduzam análises criticas de seus projetos que falharam para, assim, aprenderem com seus erros.
