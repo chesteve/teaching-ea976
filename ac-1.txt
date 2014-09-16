@@ -6,16 +6,16 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
+	Resposta: Dos 235 projetos utilizados de amostra para fazer a pesquisa, 70 deles foram considerados que falharam, o que corresponde a aproximadamente 30%.
 
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
-	Resposta:
+	Resposta: O escopo mudando durante o projeto aumenta os riscos para falhar o mesmo por causa das mudanças. Assim, deve-se calcular esses riscos e planejá-lo melhor.Isso está relacionado a mais um fator para a falha do projeto: riscos não incorporados no plano do projeto.
 
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
-	Resposta:
+	Resposta: As organizações precisam aprender com os erros do passado, já que caso não entendam esses erros, os projetos irão continuar fracassando.
