@@ -7,7 +7,7 @@ e responda às seguintes questões:
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
 	Resposta:
-	Segundo o Standish Group em sua pesquisa de 1994, aproximadamente 31% dos softwares corporativos foram cancelados antes de serem completados e 53% tiveram problemas com custo
+	Segundo o Standish Group em seu projeto de pesquisa de 1994, foi descoberto que cerca de aproximadamente 31% dos softwares corporativos foram cancelados antes de serem completados e 53% tiveram problemas com custo
 	e alterações sobre os projetos originais. 
 	Linberg, em 1999, estudou e encontrou que 20% dos projetos de software falharam e que 46% excederam custos, tiveram problemas com o calendário (data de entrega) ou sofreram redução considerável de funcionalidades em relação ao projeto original.
 	Entretanto, em 2007, Standish Group relatou que 35% dos projetos de softwares que iniciaram-se em 2006 foram bem sucedidos se comparados com 16% do correspondente em 1994.
