@@ -6,7 +6,7 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta: Dos 235 projetos utilizados de amostra para fazer a pesquisa, 70 deles foram considerados que falharam, o que corresponde a aproximadamente 30%.
+	Resposta: Dos 235 projetos utilizados de amostra para fazer a pesquisa, 70 deles foram considerados que falharam, o que corresponde a aproximadamente 30%. Pode ser considerado confiável esse valor, já que a pesquisa foi realizada em vários locais dos Estados Unidos, da Austrália e do Chile. Além disso, o questionário foi respondido duas vezes, uma para um projeto que obteve sucesso e outro que falhou, podendo assim ter uma comparação e realmente avaliar um projeto que falha e foram levados em conta vários fatores para considerar que um projeto de software falhou. 
 
 
 
