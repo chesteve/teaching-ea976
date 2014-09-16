@@ -6,16 +6,16 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
+	Resposta: No estudo, a proporção foi de 31% em 1994, e de 19% em 2006. Esses valores não são confiáveis, pois a pesquisa feita foi considerada tendenciosa, uma vez que uma amostra aleatória de executivos de TI foram requisitados a reportar história de projetos que falharam em emails com formulários confidenciais.
 
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
-	Resposta:
+	Resposta: Duas falhas são quando o cliente tem expectativas irrealistas e o escopo é mudado durante o projeto. Se as expectativas do cliente são irrealistas, o time de desenvolvimento vai lidar com problemas durante a implementação do software, pois nem todos os requisitos do cliente serão possíveis de ser implementados. Assim, o software que se imaginava inicialmente vai ter que ser alterado durante o seu desenvolvimento, pois o escopo deverá ser adequado ao que realmente é possível entregar para o cliente.
 
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
-	Resposta:
+	Resposta: Além de conselhos específicos para falhas especiais como a melhora na estimativa do projeto e na motivação dos desenvolvedores, os autores sugerem que as organizações sempre façam uma análise de um projeto após ele ter falhado, para que os falhas sejam conhecidas e aprendidas. Assim, as mesmas falhas que fizeram um projeto morrer podem ser evitadas para um próximo projeto realizado. Os autores sugerem que sempre temos que aprender com os erros, repetidamente, para melhorar o desenvolvimento dos projetos.
