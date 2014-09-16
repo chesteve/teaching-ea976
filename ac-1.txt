@@ -1,4 +1,4 @@
-ATIVIDADE COMPLEMENTAR 1
+﻿ATIVIDADE COMPLEMENTAR 1
 
 Leia o artigo de Cerpa e Verner (Why did your project fail?), 
 disponível em http://dl.acm.org/citation.cfm?id=1610286 e na área de Leituras do ambiente Ensino Aberto, 
@@ -19,8 +19,13 @@ Jørgensen e Moløkken-Østvold indicam que há sérios problemas com a forma de
 
 	Resposta:
 
+Dois fatores relacionados na figura 1 são “Delivery date impacted the development process” e “Customers did not make adequate time available for requirements gathering”, ou seja, “Data de entrega impactou o processo de desenvolvimento” e “Clientes não arranjaram tempo suficiente disponível para levantamento de requisitos”.
+Se o cliente não dispuser de tempo suficiente para a coleta dos requisitos, isso afetará diretamente no planejamento e desenvolvimento do sistema. Uma vez que os dados foram mal coletados, os gerentes de projetos podem não ter entendido completamente o problema, subestimando o tempo prometendo entregar em uma data, mas quando o problema foi realmente entendido e viram que os requisitos estavam incompletos, o tempo não era suficiente para a entrega do produto, causando o impacto na data de entrega do produto.
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
 	Resposta:
+
+Apesar de ser já estudado há muito tempo os problemas com projetos que falham, o erro é o mesmo de sempre: “We seem to need to learn the same lessons over and over again.”, ou seja, “Parece que precisamos aprender as mesmas lições novamente". Segundo o autor, enquanto as organizações não realizarem revisões para investigar o motivo da “morte” de seus projetos, elas não estarão aptas a entender o porquê seus projetos falham.
+Se estas investigações fossem de fato realizadas, muitos futuros projetos poderiam caminhar por vias diferentes, evitando as mesmas falhas, os mesmos tipos de problemas já encontrados há mais de 30 anos.
