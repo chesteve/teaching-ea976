@@ -8,24 +8,26 @@ e responda às seguintes questões:
 
 	Resposta:
 
-Segundo o Standish Group em sua pesquisa de 1994, aproximadamente 31% dos softwares corporativos foram cancelados antes de serem completados e 53% tiveram problemas com custo e alterações sobre os projetos originais. 
-Em 1999 Linberg encontrou que 20% dos projetos de software falharam e 46% excederam os custos, alteraram os calendários ou tiveram significativa redução de funcionalidades em relação às estimativas originais.
-No ano de 2007 o mesmo Standish Group reportou que 35% dos projetos de softwares iniciados em 2006 foram bem sucedidos se comparados com somente 16% do correspondente em 1994.
-Mas não dá para confiar nestes dados, pois em 2007, CHAOS ainda identificou em seu relatório que 46% de softwares tiveram algum tipo de problema nos projetos envolvendo maiores custos que o planejado e tempo de entrega extendido, contra 53% em 1994. Seus dados ainda mostram que tiveram 19% de projetos com falhas declaradas, contra 31% em 1994.
-Jørgensen e Moløkken-Østvold indicam que há sérios problemas com a forma de pesquisa conduzida pelo Standish Group, pois estavam inclinadas para um relatório de fracasso. Houve uma amostra de altos executivos de TI convidados a compartilhar suas histórias de fracasso, o que torna a pesquisa tendenciosa.
+	Segundo o Standish Group em sua pesquisa de 1994, aproximadamente 31% dos softwares corporativos foram cancelados antes de serem completados e 53% tiveram problemas com custo e alterações sobre os projetos originais. 
+	Em 1999 Linberg encontrou que 20% dos projetos de software falharam e 46% excederam os custos, alteraram os calendários ou tiveram significativa redução de funcionalidades em relação às estimativas originais.
+	No ano de 2007 o mesmo Standish Group reportou que 35% dos projetos de softwares iniciados em 2006 foram bem sucedidos se comparados com somente 16% do correspondente em 1994.
+	Não dá para confiar nestes dados, pois em 2007, CHAOS identificou em seu relatório que 46% dos softwares tiveram algum tipo de problema nos projetos, envolvendo maiores custos que o planejado e tempo de entrega extendido (53% em 1994). Ou seja, há uma discrepância entre as pesquisas do Standish Group com a de CHAOS. Ainda na pesquisa de CHAOS, seus dados mostram que tiveram 19% de projetos com falhas declaradas (31% em 1994).
+	Jørgensen e Moløkken-Østvold indicam que há sérios problemas com a forma com que a pesquisa foi conduzida pelo Standish Group, pois estavam inclinadas para um relatório de fracasso, onde houve uma amostra de altos executivos de TI convidados a compartilhar suas histórias de fracasso, o que torna a pesquisa tendenciosa.
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
 	Resposta:
 
-Dois fatores relacionados na figura 1 são “Delivery date impacted the development process” e “Customers did not make adequate time available for requirements gathering”, ou seja, “Data de entrega impactou o processo de desenvolvimento” e “Clientes não arranjaram tempo suficiente disponível para levantamento de requisitos”.
-Se o cliente não dispuser de tempo suficiente para a coleta dos requisitos, isso afetará diretamente no planejamento e desenvolvimento do sistema. Uma vez que os dados foram mal coletados, os gerentes de projetos podem não ter entendido completamente o problema, subestimando o tempo prometendo entregar em uma data, mas quando o problema foi realmente entendido e viram que os requisitos estavam incompletos, o tempo não era suficiente para a entrega do produto, causando o impacto na data de entrega do produto.
+	Dois fatores relacionados na figura 1 são “Delivery date impacted the development process” e “Customers did not make adequate time available for requirements gathering”, ou seja, “Data de entrega impactou o processo de desenvolvimento” e “Clientes não arranjaram tempo suficiente disponível para levantamento de requisitos”.
+	Se o cliente não dispuser de tempo suficiente para a coleta dos requisitos, isso afetará diretamente no planejamento, na qualidade e no desenvolvimento do sistema. Uma vez que os dados foram mal coletados, os gerentes de projetos podem cometer equívocos nas previsões de entrega, subestimando o tempo, se comprometendo a entregar o produto em uma data, mas quando o problema foi realmente entendido, verão que os requisitos estavam incompletos e o tempo não será suficiente para a entrega do produto, causando o impacto na data de entrega do produto.
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
 	Resposta:
 
-Apesar de ser já estudado há muito tempo os problemas com projetos que falham, o erro é o mesmo de sempre: “We seem to need to learn the same lessons over and over again.”, ou seja, “Parece que precisamos aprender as mesmas lições novamente". Segundo o autor, enquanto as organizações não realizarem revisões para investigar o motivo da “morte” de seus projetos, elas não estarão aptas a entender o porquê seus projetos falham.
-Se estas investigações fossem de fato realizadas, muitos futuros projetos poderiam caminhar por vias diferentes, evitando as mesmas falhas, os mesmos tipos de problemas já encontrados há mais de 30 anos.
+	Apesar deste tema já ser estudado há muito tempo, os problemas com projetos que falham é sempre o mesmo: “We seem to need to learn the same lessons over and over again.”, ou seja, “Parece que precisamos aprender as mesmas lições repetidas vezes". Segundo o autor, enquanto as organizações não realizarem revisões para investigar o motivo da “morte” de seus projetos, elas não estarão aptas a entender o porquê seus projetos falham.
+	Se estas investigações fossem de fato realizadas, muitos futuros projetos poderiam caminhar por vias diferentes, evitando as mesmas falhas, evitando os mesmos tipos de problemas já enfrentado há mais de 30 anos.
+	Quanto à analise de requisitos, o autor sugere que o gerente de projeto esteja diretamente envolvido para que não ocorra falhas no planejamento das datas, etc. Também sobre a análise, o cliente deve estar bastante envolvido para que não falte nenhum requisito importante, ou mesmo para não ocorrer expectativas irreais.
+	Outros pontos são abordados pelos autores do texto, como por exemplo o aumento da equipe de desenvolvimento. Se não houver tempo suficiente para que os novos membros estejam interados do sistema, poderá ocorrer muitas falhas como algumas relacionadas na figura 1 do artigo.
