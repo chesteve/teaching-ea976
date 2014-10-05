@@ -23,3 +23,6 @@ N : Structured natural language
 Y : Design description languages
 N : Graphical notations
 N : Mathematical specifications
+
+
+Link para o documento de requisitos: http://www2.dc.ufscar.br/~gedai/documentos/Relatorios/Documentacao-Site.pdf
