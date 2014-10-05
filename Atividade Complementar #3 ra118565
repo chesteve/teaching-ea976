@@ -1,0 +1,22 @@
+Documento: http://goo.gl/STIFyL
+
+### Structure of a requirements document 
+
+N : Preface
+Y : Introduction
+Y : Glossary
+N : User requirements definition
+Y : System architecture
+Y : System requirements specification
+N : System models
+Y : System evolution
+Y : Appendices
+Y : Index
+
+
+### Notation
+Y : Natural language
+Y : Structured natural language 
+Y : Design description languages
+Y : Graphical notations
+N : Mathematical specifications
