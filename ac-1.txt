@@ -7,15 +7,24 @@ e responda às seguintes questões:
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
 	Resposta:
+	Segundo o Standish Group em seu projeto de pesquisa de 1994, foi descoberto que cerca de aproximadamente 31% dos softwares corporativos foram cancelados antes de serem completados e 53% tiveram problemas com custo
+	e alterações sobre os projetos originais. 
+	Linberg, em 1999, estudou e encontrou que 20% dos projetos de software falharam e que 46% excederam custos, tiveram problemas com o calendário (data de entrega) ou sofreram redução considerável de funcionalidades em relação ao projeto original.
+	Entretanto, em 2007, Standish Group relatou que 35% dos projetos de softwares que iniciaram-se em 2006 foram bem sucedidos se comparados com 16% do correspondente em 1994.
+	Embora haja comparação, não podemos confiar cegamente nesses dados, já que em 2007 CHAOS relatou que 46% dos softwares sofreram algum problema nos projetos, implicando em custo maior e atraso na entrega, enquanto em 1994 essa porcentagem era de 53%, além de que o relatório mostra que 19% dos projetos tiveram falhas declaradas e registradas, mas em 1994 esse número era 31%.
+	O que degrada a confiabilidade da pesquisa é que houve uma reunião com grandes executivos de TI para expôr suas histórias de insucesso, onde os dados foram coletados pelo Standish Group. Portanto, Jørgensen e Moløkken-Østvold dizem que este é o grande ponto que não torna esta pesquisa confiável.
 
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
 	Resposta:
-
+	Dois fatores de falhas em projetos que estão diretamente relacionados são que a “Data de entrega impactava o processo de desenvolvimento” e que os “Clientes não conseguiram tempo suficiente disponível para levantamento de requisitos”.
+	Caso o cliente não planejar e não elaborar um bom tempo para o levantamento dos requisitos, isto poderá afetar o planejamento, desenvolvimento e, consequentemente, a entrega do produto. Com isso, pode acontecer de que durante o desenvolvimento os requisitos entrem em conflitos, houve requisitos subestimados ou até mesmo requisitos mal elaborados, que foram mal interpretados posteriormente. É fácil notar que todos esses problemas causarão impactos na data de entrega, fazendo com que o produto atrase até chegar no cliente final.
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
 	Resposta:
+	Pelo que o autor diz, parece que precisamos sempre aprender as mesmas lições, já que há pelo menos 30 anos temos grandes repetições de problemas que levam à falha.. 
+	Ele diz isto pelo fato de que as empresas deveriam fazer mais revisões para compreender o motivo que seus projetos deram errado, e não fazendo isto elas jamais entenderiam o motivo das falhas dos seus projetos.
