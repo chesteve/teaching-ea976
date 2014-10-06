@@ -1,25 +1,30 @@
 *** AC3 ***  (deadline: 05/Out/2014 23:59)
+Kelvin Ronny Marques da Silva
+138645
+Link do Documento:
+http://www2.dc.ufscar.br/~gedai/documentos/Relatorios/Documentacao-Site.pdf
+
 
 1.- Git push + git pull request of one standards-based requirements document of your choice.
 2.- Git push + git pull request this file marking with Y (yes) or N (no) if the chosen requirements documents includes the given chapters and the notation elements used.
 
 ### Structure of a requirements document 
 
-Y/N : Preface
-Y/N : Introduction
-Y/N : Glossary
-Y/N : User requirements definition
-Y/N : System architecture
-Y/N : System requirements specification
-Y/N : System models
-Y/N : System evolution
-Y/N : Appendices
-Y/N : Index
+N: Preface
+Y: Introduction
+N : Glossary
+N : User requirements definition
+N : System architecture
+Y : System requirements specification
+N : System models
+N : System evolution
+N : Appendices
+Y : Index
 
 
 ### Notation
-Y/N : Natural language
-Y/N : Structured natural language 
-Y/N : Design description languages
-Y/N : Graphical notations
-Y/N : Mathematical specifications
+Y : Natural language
+Y : Structured natural language 
+Y : Design description languages
+N : Graphical notations
+N : Mathematical specifications
