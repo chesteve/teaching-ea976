@@ -5,21 +5,24 @@
 
 ### Structure of a requirements document 
 
-Y/N : Preface
-Y/N : Introduction
-Y/N : Glossary
-Y/N : User requirements definition
-Y/N : System architecture
-Y/N : System requirements specification
-Y/N : System models
-Y/N : System evolution
-Y/N : Appendices
-Y/N : Index
+N : Preface
+Y : Introduction
+Y : Glossary
+Y : User requirements definition
+Y : System architecture
+N : System requirements specification
+Y : System models
+N : System evolution
+Y : Appendices
+Y : Index
 
 
 ### Notation
-Y/N : Natural language
-Y/N : Structured natural language 
-Y/N : Design description languages
-Y/N : Graphical notations
-Y/N : Mathematical specifications
+Y : Natural language
+Y : Structured natural language 
+Y : Design description languages
+Y : Graphical notations
+N : Mathematical specifications
+
+Documento utilizado: 
+https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&ved=0CFIQFjAG&url=https%3A%2F%2Fusers.csc.calpoly.edu%2F~djanzen%2Fcourses%2F508W09%2Fsampledocs%2FCOS_SRS.doc&ei=2PMxVOPRAdiAygT4k4KYAQ&usg=AFQjCNHdg4vx60onKCQTHOq9T0xBTgOHXA&sig2=jOPYyUPJ_kpdL561ObTApQ&cad=rja
