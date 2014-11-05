@@ -6,16 +6,29 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
-
+Resposta:
+	Dos 235 projetos efetivamente analisados pelos autores, 70 deles (aproximadamente 30%) foram considerados fracassos pelos respondentes
+	dos questionários. A meu ver, este não é um valor confiável, pois a mera constatação do sucesso ou fracasso de um projeto é inerentemente
+	subjetiva, algo inclusive relatado pelos próprios autores ao reportarem a relutância dos gestores de projetos de software em reconhecer
+	fracassos sob sua gestão. Os autores deveriam ter elaborado uma métrica quantitativa para categorizar projetos em sucessos ou fracassos,
+	considerando, por exemplo, o custo final do projeto versus seu custo estimado, o tempo necessário para sua conclusão, quantas funcionalidades
+	foram de fato entregues em relação ao planejado, etc.
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
-	Resposta:
-
-
+Resposta:
+	(Fatores escolhidos: Project had inadequate staff -> Risks not reassessed or controlled)
+	Sendo o tamanho da equipe inadequado para a realização de um projeto, torna-se inevitável a necessidade de realizar concessões, priorizando
+	determinadas etapas do processo de desenvolvimento de software em detrimento a outras percebidas como menos importantes. À medida que prazos
+	fatais se aproximam e funcionalidades prometidas permanecem sem implementação, atividades pouco evidentes aos clientes, entre elas análise e
+	controle de riscos, serão certamente deixadas de lado por não haver tempo hábil para conciliá-las com a construção do código em si.
+	
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
-	Resposta:
+Resposta:
+	A constatação dos autores é que, apesar de extensa literatura, aprendemos muito pouco a respeito dos principais desafios da Engenharia de
+	Software nas últimas décadas. Relatos reais de experiências frustradas, descrevendo em pormenores os erros e acertos dos processos de
+	desenvolvimento de software - os post mortems, relativamente comuns na área de jogos eletrônicos, porém raríssimos nas demais - seriam
+	recursos inestimáveis para evitar que novos projetos sucumbissem perante problemas já relatados, quiçá superados, por outras equipes.
