@@ -6,16 +6,54 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
-
+	Resposta: 
+		De acordo com o artigo, há fontes um tanto quanto diferentes informando valores distintos sobre os números
+	de projetos de software que falharam, fator que faz com que esse valor não seje tão confiável a primeira vista ao leitor.
+		O grupo Standish afirma que em 1994, aproximadamente 31% dos projetos de software foram cancelados e outros 53%
+	tiveram que ser desabilitados.
+		Linberg em 1999 afirma que somente 20% dos projetos de software falharam e 46% sofreram com aumento de custo
+	e quebra dos prazos previamente planejados.
+		Por fim, em 2007 o mesmo grupo Standish, informou que 46% dos projetos de software falharam, devido ao alto custo
+	ou ao seu tempo excedente de acordo com seu prazo, sendo que 19% falharam por motivos diversos.
+		De acordo com o próprio autor do artigo, tais dados são um tanto quanto duvidosos, principalmente os provenientes
+	do grupo Standish, visto que tais dados são inconsistentes com o resultado do custo de suas pesquisas.
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
 	Resposta:
+		Escolhi relacionar os itens que envolvem "Riscos não são reaviados ou controlados" com "Projeto possui um time
+	não qualificado"
+		Para mim, a relação dos dois é clara. Primeiramente irei dar ênfase ao fato dos riscos não serem revisados
+	ou controlados, para depois inserir o fator equipe inexperimente/desqualificada. O fator de riscos dentro de um projeto
+	deve ser feito uma analise logo extração de requisitos, aonde será escolhido se o projeto é viável ou não de ser
+	feito pela empresa, fatores como tempo de codagem, distância do cliente, custo-beneficio, quantidade de devs, experiência
+	do gerente, entre outros, deve ser levada em conta. A partir do momento que há uma falha logo no começo, as chances
+	de ocorrerem diversas outras são altas, dependendo da complexidade do projeto isso aumenta de forma exponencial.
+		Uma possível falha, é o fato de, por exemplo, não ter um grupo qualificado para fazer parte da equipe de desenvolvimento
+	do projeto em questão, o que faz com que sejam contratos novos desenvolvedores ou que tal serviço venha a ser terceirizado,
+	sem levar em conta o fator de algum membro da equipe sair no meio do projeto, pois dependendo de quem for, o projeto pode
+	ser apenas mais um a entrar na lista de falhas.
+		Fazendo o caminho inverso, a partir do momento que você não possui uma equipe qualificada para o projeto, as chances
+	da analise de riscos serem feitas de maneira inapropriada são altas, o que acaba por acarretar nos mesmos problemas listados
+	acima, além de diversos outros. Portanto, ter uma equipe qualificada é essencial, tanto no começo do projeto para garantir
+	uma boa analise de riscos, quanto durante ele, para evitar o uso de devs externos ou perda de conhecimento devido a uma possivel
+	ajuda de uma má analise de riscos.
 
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
 	Resposta:
+		Segundo os autores do artigo, os projetos falham por diversos motivos e não por um específico, a seguir, irei listar
+	alguns deles. Uma grande falha se refere a uma pequena relação sobre o que foi explicado na questão 2. Caso o cliente não
+	invista em tempo suficiente em conjunto com o desenvolvedor para levantar requirimentos com o projeto em sua fase de planejamento,
+	as chances de requirimentos fracos serem criados é alta, e a possibilidade de ocorrer problemas no meio do projeto também, como
+	por exemplo, o cliente possuia certa expectativa, mas ela não foi atingida por isso não ter ficado claro na extração de requisitos
+	do projeto, com isso, diversas mudanças provavelmente deverão ser feitas durante o decorrer do projeto, isso aumentaria o tempo
+	da entrega, frustando o cliente, a empresa e os desenvolvedores.
+		Outro ponto reforçado pelos autores do artigo, é a inserção de novos membros na equipe durante o desenvolvimento do projeto
+	com isso, um bom tempo hábil deverá ser gasto para inserir tais membros no contexto atual do projeto, além de gastar tempo com
+	integraçao com a equipe atual, acarretando ainda mais atrasos. Segundo os autores do artigo, melhorando tais pontos, diminuiria 
+	com certeza as chances de projetos de software falharem, para eles, é desconfortando saber que ao longo de tantos anos os mesmos
+	erros ainda ocorrem.
