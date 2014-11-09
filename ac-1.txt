@@ -6,16 +6,24 @@ e responda às seguintes questões:
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
+	Resposta: De acordo com o relatório de 2007 do Standish Group 65% (35% obtiveram sucesso) dos projetos falharam, porém
+		este valor não está de acordo com o CHAOS report do mesmo ano, que indica que 46% obtiveram sucesso após gastar mais
+		tempo e dinheiro do que o esperado e 19% falharam de fato. Sendo assim, a proporção de projetos que falharam depende
+		muito da meneira como se interpreta a falência de um projeto.
 
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
-	Resposta:
+	Resposta: A relação entre "Project had inadequate staff" e "Deliver date made with inadequate requirements" parece gerar resultados
+		catastróficos uma vez que um problema potencializa o outro. Por uma lado, o pessoal inadequado não consegue definir os requerimentos
+		do projeto de forma correta e desta forma não consegue estabelecer e consequentemente cumprir a data de entrega do projeto, e por
+		outro lado um projeto com uma data de entrega inadequada normalmente não pode ser entregue nem ao menos por uma equipe adequada, quanto
+		mais uma inadequada.
 
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
-	Resposta:
+	Resposta: Os autores sugerem que uma análise dos projetos que falharam/terminaram seja feita para aprender onde podemos
+	melhorar de forma a não cometer os mesmos erros nos projetos subsequentes.
