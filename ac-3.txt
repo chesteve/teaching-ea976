@@ -23,3 +23,5 @@ Y/N : Structured natural language
 Y/N : Design description languages
 Y/N : Graphical notations
 Y/N : Mathematical specifications
+
+http://www.cise.ufl.edu/class/cen3031fa13/SRS_Example_1_2011.pdf
