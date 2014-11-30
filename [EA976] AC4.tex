@@ -1,0 +1,206 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+% Feel free to distribute this example, but please keep the referral
+% to howtotex.com
+% Date: March 2011 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Edit the title below to update the display in My Documents
+%\title{Relatório Atividade Complementar FLOSS EA976}
+%
+%%% Preamble
+
+\documentclass[12pt,a4paper]{article} % Use A4 paper with a 12pt font size - different paper sizes will require manual recalculation of page margins and border positions
+
+\usepackage{marginnote} % Required for margin notes
+\usepackage{wallpaper} % Required to set each page to have a background
+\usepackage{lastpage} % Required to print the total number of pages
+\usepackage[left=1.3cm,right=2.0cm,top=1.8cm,bottom=5.0cm,marginparwidth=3.4cm]{geometry} % Adjust page margins
+\usepackage{amsmath} % Required for equation customization
+\usepackage{amssymb} % Required to include mathematical symbols
+\usepackage{xcolor} % Required to specify colors by name
+
+\usepackage{fancyhdr} % Required to customize headers
+\usepackage[brazil]{babel}
+%\usepackage[utf8]{inputenc} % Estava ocorrendo um erro de compilacao por causa desse pacote, devido a isso, sua inclusao foi excluida
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx}
+\usepackage{pstricks}
+\usepackage{subfigure}
+\usepackage{hyperref}	% Links no texto
+\usepackage{caption}  % legendas nas figuras
+\captionsetup{justification=centering,labelfont=bf}
+\usepackage{textcomp}
+\setlength{\headheight}{80pt} % Increase the size of the header to accommodate meta-information
+\pagestyle{fancy}\fancyhf{} % Use the custom header specified below
+\renewcommand{\headrulewidth}{0pt} % Remove the default horizontal rule under the header
+
+\setlength{\parindent}{0cm} % Remove paragraph indentation
+\newcommand{\tab}{\hspace*{2em}} % Defines a new command for some horizontal space
+
+\newcommand\BackgroundStructure{ % Command to specify the background of each page
+\setlength{\unitlength}{1mm} % Set the unit length to millimeters
+
+\setlength\fboxsep{0mm} % Adjusts the distance between the frameboxes and the borderlines
+\setlength\fboxrule{0.5mm} % Increase the thickness of the border line
+\put(10, 20pr){\fcolorbox{black}{gray!5}{\framebox(155,247){}}} % Main content box
+\put(165, 20){\fcolorbox{black}{gray!10}{\framebox(37,247){}}} % Margin box
+\put(10, 262){\fcolorbox{black}{white!10}{\framebox(192, 25){}}} % Header box
+\put(175, 263){\includegraphics[height=23mm,keepaspectratio]{}} % Logo box - maximum height/width: 
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\fancyhead[L]{\begin{tabular}{l r | l r} % The header is a table with 4 columns
+\textbf{2S/2014} & EA976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
+\textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 27/10/14 \\ % Job number and last updated date
+\textbf{Professor:} & Christian E. Rothenberg & \textbf{Assunto:} & Caracterizaç\~ao  projeto \textit{open source}  \\ % Version and reviewed date
+\textbf{Projeto:} & Redmine & \textbf{Autor:} & Eduardo Carlassara (RA: 138274) \\ % Designer and reviewer
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\AddToShipoutPicture{\BackgroundStructure} % Set the background of each page to that specified above in the header information section
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+
+\section{Relat\'orio t\'ecnico descritivo sobre projeto de c\'odigo livre} 
+
+Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relat\'orio da atividade complementar \#4, na forma de relat\'orio simplificado. 
+
+Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.\\
+
+\subsection{Descriç\~ao do projeto}
+
+O Redmine \'e um software livre, que \'e um gerenciador de projetos baseados na web, al\'em de ser uma ferramenta de gerenciamento e controle de bugs. Entre suas principais func\~oes est\'a o seu sofisticado calend\'ario e a possibilidade de montar gr\'aficos de Gannt para o acompanhamento do planejamento e execuc\~ao do projeto, fator que facilita e muita na visualizac\~ao dos projetos e das deadlines, ele tamb\'em pode ser implementado para trabalhar com mais de um projeto em paralelo.\\
+\\
+Seu design foi influenciado pelo Trac, um pacote de software semelhante, de c\'odigo aberto baseado em Python, al\'em disso o Redmine possui seu c\'odigo implementado através do framework Ruby on Rails que visa aumentar a velocidade e facilidade no desenvolvimento de sites orientados a banco de dados, al\'em de ser um software traduzido para v\'arias linguagens, ele possibilita o uso integrado com v\'arios reposit\'órios tais como o Svn, Git e Mercurial.\\
+\\
+Seu foco \'e para empresas que trabalham com desenvolvimento de software, visto que ele se encaixa muito bem em algumas metodologias de desenvolvimento, principalmente no Scrum. No link ao lado, podem ser encontradas algumas das principais associac~oes que utilizam o Redmine http://www.redmine.org/projects/redmine/wiki/WeAreUsingRedmine
+
+\section{Caracterizac\~ao do projeto de c\'odigo livre} 
+Pesquise sobre o projeto para responder as seguintes quest\~oes.
+
+
+\subsection{Desenvolvimento}
+
+
+\begin{itemize}
+\item Existe um local dedicado para o desenvolvimento?\\
+\\
+N\~ao exatamente. O que existe \'e uma p\'agina do site oficial do software com um forum embutido. Atrav\'es desse forum s\~ao listados todos bugs, features e novos patches, onde \'e poss\'ivel que a comunidade de usu\'arios e desenvolvedores convivem para resolver e descrever erros e testar novas implementac\~oes do software.\\
+\\
+O desenvolvimento desse ser feito em um computador pessoal atrav\'es da linguagem Ruby atrav\'es do framework Rails. Basta logar no software do Redmine através da web para fazer a modificação.
+
+\item \'E poss\'ivel extrair o atual c\'odigo fonte a partir de um reposit\'orio p\'ublico de c\'odigo fonte?\\
+\\
+Sim. O atual c\'odigo fonte pode ser extra\'ido via quatro reposit\'orios diferentes, seguem os seus endereços:\\
+Via link direto:\\
+GitHub: https://github.com/redmine/redmine\\
+Mercurial: https://bitbucket.org/redmine\\
+
+Via comando no software ou terminal:\\
+Svn: svn co https://svn.redmine.org/redmine/branches/2.6-stable redmine-2.6\\
+Mercurial: hg clone --updaterev 2.6-stable https://bitbucket.org/redmine/redmine-all redmine-2.6\\
+
+
+\item Qu\~ao grande \'e o c\'odigo?\\
+\\ Sua versão de download em .zip para instalação é de cerca de 7mb.\\
+\\ Sua versão de código aberto, é dividida em diversas e diversas pastas, sendo que no total ocupam cerca de 3mb, cada arquivo com extensão .rb possui em média 150 há 200 linhas de código. Como temos cerca de 50 arquivos, posso estimar cerca de 9000 linhas de código. Mas é claro, devido a grande divisão e quantidade de arquivos fonte, esse número é baseado em achismo e estatisticas feitas sem muita base.
+\item Quais s\~ao as principais linguagens de programaç\~ao?\\
+\\ Seu desenvolvimento é baseado exclusivamente na linguagem Ruby através do framework Rails.
+\item A utilizac\~ao do pacote depende de algum outro software propriet\'ario ou de c\'odigo fonte aberto?\\
+\\ Não
+\item \'E possível calcular o n\'umero de \textit{downloads} ou usu\'arios de uma versão em particular?\\
+\\ O número de usúarios que utilizam uma versão em particular não, mas é possível saber através dos repositórios do programa Git, Mercurial e outros o número de vezes que o código aberto foi baixdo. Ou através de estatisticas do site o número de vezes que alguma versão foi baixada, mas isso não remete diretamente o número de pessoas utilizando a versão, visto que se alguém com o mesmo login baixar mais de uma vez o software contará duas vezes.
+\end{itemize}
+
+
+\subsection{Licença Software Livre}
+
+
+\begin{itemize}
+\item Quem s\~ao os patrocinadores que contribuem para a sustentabilidade do projeto?\\
+\\ Há uma pagina para doações para o Redmine, nessa p\'agina s\~ao listados os maiores doadores, como: Qualcomm, Duruan Co., LTDA, Andreas Mangold, Bitnami e Sligro Food Group.\\
+\\
+Além disso, na mesma página estão listados todos os doadores com valores mais baixos do que os doadores master (mil dólares ou mais). Esses doadores são divididos em grupos, de acordo com o valor da doação feita.
+
+
+\item Quem det\'em os direitos autorais do c\'odigo?\\
+\\ O detentor dos direitos autorais do código do Redmine é o desenvolvedor Jean-Philippe Lang, o também administrador do site do Redmine.
+
+\item O projeto está sob qual tipo de licença de c\'odigo aberto?\\
+\\
+General Public License (GPL) versão 2
+\item Por que os respons\'aveis pelo projeto escolheram a licença de c\'odigo aberto?\\
+\\ Não obtive resposta dos autores do Redmine devido a escolha por esse tipo de licença. Mas acredito que a escolha do GPL se refere a vasta possibilidade que a licença permite em distribuir e permitir a alteração do código livremente visto boa parte do seu desenvolvimento é feita por terceiros, desde que sempre exista o nome do autor da alteração e a data de modificação, para preservar o código original e evitar a perda de qualidade por modificações de terceiros.
+\end{itemize}
+
+\subsection{Governança}
+
+
+\begin{itemize}
+\item Existem quantos desenvolvedores alocados para o projeto?\\
+\\ Três (3).
+\item Quantos \textit{committers}, tamb\'em conhecidos por desenvolvedores que podem realizar mudanças propostas, o projeto possui?\\
+\\ Dezeseis (16).
+\item O que você pode dizer sobre o modelo de governança de c\'odigo fonte aberto?\\
+\\ Eu acredito que seja bom. Visto que as equipes são bem definidas e também é bem definido qual é a função de cada. Tratando do Redmine, temos o seguinte organograma:
+\\Development Team : Responsáveis pelo desenvolvimento e manutenção do código diretamente.
+\\Documentation Team: Essa equipe é responsável por definir, organizar e executar a documentação do projeto do Redmine, tanto em nível de desenvolvedor quanto em nível de usuário leigo.
+\\Issue Tracker t: Equipe responsável por cuidar de bugs, realizar testes e tentar resolve-los.
+\\Plugin Team: Equipe responsável por gerenciar e criar novos plugins para a ferramenta.
+\\Release Team: Equipe responsável por cuidar dos pacotes e de tudo relacionado a releases de novas versões do Redmine.
+\\Translation Team: Equipe responsável pela tradução da ferramenta.
+\\Community Release Team: É a equipe de assessoria de imprensa e que cuida da divulgação das noticias para a comunidade de software livre.
+\\UX Team-User Interface and User Experience: Equipe responsável por cuidar da interface usuário-interface do Redmine.
+\\User Support Team: Equipe responsável por dar suporte a foruns , e-mail, IRCs para a comunidade.
+\end{itemize}
+
+\subsection{Manutenção}
+
+
+\begin{itemize}
+\item Gerenciamento de \textit{releases}: Qual o n\'umero e frequ\^encia de \textit{releases}?\\
+\\ Por ano há em média aproximadamente 10 releases, sendo que o tempo de espera entre um e a sua próxima versão é de aproximadamente um a dois meses. Notamos que no site há uma pagina dedicada a mostrar através de gráficos o quanto falta para o desenvolvimento dos próximos releases, o que torna interessante tal prática, visto que deixa transparente para a comunidade quais serão as próximas funções e onde estão ocorrendo maiores dificuldades para o desenvolvimento de novas versões da ferramenta de gerenciamento.
+\item Comunicação: Existe um canal de comunicação \'util e ativo para a comunidade / suporte ao usu\'ario?\\
+\\ Sim. Existe o Forum com um grupo onde estão centralizados os tópicos de Ajuda e também um outro grupo para desenvolvedores, onde está localizado os tópicos sobre a parte de desenvolvimento.\\
+\\ Além do forum aberto, existe um trecho na página onde estão todas as atividades, que envolvem patches, features e defeitos. Nessa página, se logado, é possível a um usuário listar o erro e aguardar uma possível resolução.
+\item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correç\~ao?\\
+\\ Sim, há uma sessão de tarefas, já mencionada no relatório, onde se encontram todos os defeitos listados por desenvolvedores ou através da comunidade, uma vez listados, eles podem ser facilmente encontrados por terceiros, sendo que para todo bug levantado a equipe de desenvolvimento trabalha em cima dele para resolver e alguns arquivos .patch ou .diff são gerados quando o problema é resolvido.
+\item Existe um plano de metas para planos futuros? Existe evid\^encia que o plano de metas foi utilizado no passado?\\
+\\ Sim, há uma página destinada para as próximas versões do Redmine, onde estão listados todas novas funções e diferenças para a próxima versão, sendo que também há um gráfico de barras mostrando o percentual do desenvolvimento de determinados features da nova versão.
+\item Existe consultoria comercial, treinamento ou consulta dispon\'ivel para o projeto? A partir de m\'ultiplos prestadores de serviços?\\
+\\ Treinamento direto e consultoria comercial não. Mas há uma wiki na página do site do Redmine, onde é possível fazer consultas a manuais que ensinam a desenvolver e instalar o Redmine e seus plugins tanto para desenvolvedores quanto para leigos. 
+\end{itemize}
+        
+
+\par\vspace{\baselineskip}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
