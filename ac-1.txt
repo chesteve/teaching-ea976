@@ -1,21 +1,17 @@
 ATIVIDADE COMPLEMENTAR 1
 
-Leia o artigo de Cerpa e Verner (Why did your project fail?), 
-disponível em http://dl.acm.org/citation.cfm?id=1610286 e na área de Leituras do ambiente Ensino Aberto, 
-e responda às seguintes questões:
+Erik de Godoy Perillo - RA 135582 - EA976A - Segundo semestre de 2014
 
 1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
 
-	Resposta:
-
+	Resposta: Considerando que eles levaram a análise 235 casos e 70 destes foram considerados por quem respondia à pesquisa como fracassos, cerca de 29,8% dos projetos falharam, ou seja, quase um terço deles. Embora o trabalho tenha sido feito com referências a, entre outras, uma pesquisa que é considerada duvidosa por alguns (esta feita pelo Standish Group), os números parecem ser confiáveis, uma vez que os questionários foram enviados a diversos lugares do mundo e as respostas incompletas foram descartadas.
 
 
 2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
 
-	Resposta:
-
+	Resposta: "Projeto subestimado" e "Staff adicionado tardiamente". Não conhecendo com exatidão a complexidade e o que o software requer, não há como saber quais as equipes adequadas para se produzir corretamente o projeto.
 
 
 3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
 
-	Resposta:
+	Resposta: Dentre os principais motivos para um projeto falhar, estão a falta de planejamento e o prazo curto. Esses problemas, segundo os autores, persistem em projetos há anos e, ainda segundo eles, uma das principais causas é a falta de documentação "post mortem", ou seja, relatórios após o término/fracasso do projeto que relatam como ele se saiu e/ou por quê ele fracassou. Assim, os autores sugerem que, se for dada maior atenção aos relatórios "post mortem", os futuros produtores terão uma base maior de experiência e conhecimento sobre quais caminhos tomar e quais não tomar para se ter um projeto bem sucedido.
