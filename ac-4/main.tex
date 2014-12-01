@@ -71,7 +71,7 @@
 %----------------------------------------------------------------------------------------
 
 \fancyhead[L]{\begin{tabular}{l r | l r} % The header is a table with 4 columns
-\textbf{2S/2014} & EA976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
+\textbf{2S/2014} & EA-976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
 \textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 27/10/14 \\ % Job number and last updated date
 \textbf{Professor:} & Christian E. Rothenberg & \textbf{Assunto:} & Caracterização  projeto \textit{open source}  \\ % Version and reviewed date
 \textbf{Projeto:} & Nome projeto open source & \textbf{Autor:} & Nome Aluno (RA: XXXXXX) \\ % Designer and reviewer
@@ -87,7 +87,7 @@
 %	DOCUMENT CONTENT
 %----------------------------------------------------------------------------------------
 
-\section{Relat\'orio t\'ecnico descritivo sobre projeto de código livre} 
+\section{Relat\'orio t\'ecnico descritivo sobre projeto de c\'odigo livre} 
 
 Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relatório da atvidade complementar \#4, na forma de relat\'orio simplificado. 
 
@@ -95,9 +95,7 @@ Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.\\
 
 \subsection{Descrição do projeto}
 
-Descreva brevemente o tipo de software desenvolvido no projeto, para que serve, quem usa, etc.
-
-
+Node.js é uma plataforma para se construir aplicações de rede rápidas e escaláveis. Feita sobre o motor JavaScript do Google Chrome (V8), com um modelo de I/O orientado a eventos, a plataforma foi pensada para aplicações server-side com grande troca de dados com um grande número de clientes.
 
 \section{Caracterização do projeto de código livre} 
 Pesquise sobre o projeto para responder as seguintes questões.
@@ -107,22 +105,22 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 
 \begin{itemize}
-\item Existe um local dedicado para o desenvolvimento?
-\item É possível extrair o atual código fonte a partir de um repositório público de código fonte?
+\item Existe um local dedicado para o desenvolvimento? - Não existe um local físico, mas sim um repositório git (github.com/joyent/node) onde todo o desenvolvimento acontece e o projeto é atualizado.
+\item É possível extrair o atual código fonte a partir de um repositório público de código fonte? - Sim, como dito no item anterior, todo o código fonte está explicitamente disponível no repositório do github do projeto.
 \item Quão grande é o código?
-\item Quais são as principais linguagens de programação?
-\item A utilização do pacote depende de algum outro software proprietário ou de código fonte aberto?
-\item É possível calcular o número de \textit{downloads} ou usuários de uma versão em particular?
+\item Quais são as principais linguagens de programação? - Node.js é feito basicamente em C/C++.
+\item A utilização do pacote depende de algum outro software proprietário ou de código fonte aberto? - Node para Unix tem poucas dependências, sendo listadas como: GCC, G+++, Python (2.6 ou 2.7), GNU Make, libexecinfo. Todos são softwares de código aberto. Entretanto, para ambientes Windows, precisa de Visual Studio para ser construído.
+\item É possível calcular o número de \textit{downloads} ou usuários de uma versão em particular? - O github permite visualizar isto pela seção "Traffic graphs", entretanto, esta não está visível no repositório do node.
 \end{itemize}
 
 \subsection{Licença Software Livre}
 
 
 \begin{itemize}
-\item Quem são os patrocinadores que contribuem para a sustentabilidade do projeto?
-\item Quem detém os direitos autorais do código?
-\item O projeto está sob qual tipo de licença de código aberto?
-\item Por que os responsáveis pelo projeto escolheram a licença de código aberto?
+\item Quem são os patrocinadores que contribuem para a sustentabilidade do projeto? - A empresa por trás do node.js e que hoje o mantém é a Joyent. Para a manutenção e evolução do projeto em termos de desenvolvimento, há diversos contribuidores ao redor do mundo. Apesar de ter pessoas oficializadas como programadores-cabeça do projeto, qualquer um é encorajado a se engajar na contribuição.
+\item Quem detém os direitos autorais do código? - Sua empresa, Joyent Inc.
+\item O projeto está sob qual tipo de licença de código aberto? - Ele é lançado sob a "MIT license".
+\item Por que os responsáveis pelo projeto escolheram a licença de código aberto? - Pela capacidade do projeto de ser dinamicamente mantido e evoluído por várias e qualquer pessoa ao redor do mundo com interesse em tal. Node nasceu com isso em mente.
 \end{itemize}
 
 \subsection{Governança}
@@ -138,11 +136,11 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 
 \begin{itemize}
-\item Gerenciamento de \textit{releases}: Qual o número e frequência de \textit{releases}?
-\item Comunicação: Existe um canal de comunicação útil e ativo para a comunidade / suporte ao usuário?
-\item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correção?
-\item Existe um plano de metas para planos futuros? Existe evidência que o plano de metas foi utilizado no passado?
-\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?         
+\item Gerenciamento de \textit{releases}: Qual o número e frequência de \textit{releases}? - O github mostra um total de 244 releases. A frequência exata não pôde ser calculada mas, considerando-se que node foi lançado em meados de 2009, pode-se dizer que é alta.
+\item Comunicação: Existe um canal de comunicação útil e ativo para a comunidade / suporte ao usuário? - Sim, vários. No site do node.js (seção "Community"), constam: lista de emails, canais de IRC, um github issues list, assim como alguns blogs, a maioria agregada no "Planet Node".
+\item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correção? - Sim, presente em https://github.com/joyent/node/issues
+\item Existe um plano de metas para planos futuros? Existe evidência que o plano de metas foi utilizado no passado? - Não foram encontrados planos oficiais, apenas aqueles discutidos em conferências sobre o node.js, mailing lists e discussão do github. Toda mudança no projeto deve ser pesadamente discutida antes, as mais críticas sendo encorajadas no site a serem discutidas no github issues list.
+\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?  - Sim, a partir de vários prestadores, um deles sendo o "StrongLoop"(.com).       
 \end{itemize}
         
 
