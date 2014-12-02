@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+% Feel free to distribute this example, but please keep the referral
+% to howtotex.com
+% Date: March 2011 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Edit the title below to update the display in My Documents
+%\title{Relatório Atividade Complementar FLOSS EA976}
+%
+%%% Preamble
+
+\documentclass[12pt,a4paper]{article} % Use A4 paper with a 12pt font size - different paper sizes will require manual recalculation of page margins and border positions
+
+\usepackage{marginnote} % Required for margin notes
+\usepackage{wallpaper} % Required to set each page to have a background
+\usepackage{lastpage} % Required to print the total number of pages
+\usepackage[left=1.3cm,right=2.0cm,top=1.8cm,bottom=5.0cm,marginparwidth=3.4cm]{geometry} % Adjust page margins
+\usepackage{amsmath} % Required for equation customization
+\usepackage{amssymb} % Required to include mathematical symbols
+\usepackage{xcolor} % Required to specify colors by name
+
+\usepackage{fancyhdr} % Required to customize headers
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{pstricks}
+\usepackage{subfigure}
+\usepackage{caption}  % legendas nas figuras
+\captionsetup{justification=centering,labelfont=bf}
+\usepackage{textcomp}
+\setlength{\headheight}{80pt} % Increase the size of the header to accommodate meta-information
+\pagestyle{fancy}\fancyhf{} % Use the custom header specified below
+\renewcommand{\headrulewidth}{0pt} % Remove the default horizontal rule under the header
+
+\setlength{\parindent}{0cm} % Remove paragraph indentation
+\newcommand{\tab}{\hspace*{2em}} % Defines a new command for some horizontal space
+
+\newcommand\BackgroundStructure{ % Command to specify the background of each page
+\setlength{\unitlength}{1mm} % Set the unit length to millimeters
+
+\setlength\fboxsep{0mm} % Adjusts the distance between the frameboxes and the borderlines
+\setlength\fboxrule{0.5mm} % Increase the thickness of the border line
+\put(10, 20pr){\fcolorbox{black}{gray!5}{\framebox(155,247){}}} % Main content box
+\put(165, 20){\fcolorbox{black}{gray!10}{\framebox(37,247){}}} % Margin box
+\put(10, 262){\fcolorbox{black}{white!10}{\framebox(192, 25){}}} % Header box
+\put(175, 263){\includegraphics[height=23mm,keepaspectratio]{}} % Logo box - maximum height/width: 
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\fancyhead[L]{\begin{tabular}{l r | l r} % The header is a table with 4 columns
+\textbf{2S/2014} & EA976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
+\textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 30/11/14 \\ % Job number and last updated date
+\textbf{Professor:} & Christian E. Rothenberg & \textbf{Assunto:} & Caracterização  projeto \textit{open source}  \\ % Version and reviewed date
+\textbf{Projeto:} & Arduino IDE & \textbf{Autor:} & Igor Frederico Boff Alves (RA: 138521) \\ % Designer and reviewer
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\AddToShipoutPicture{\BackgroundStructure} % Set the background of each page to that specified above in the header information section
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+
+\section{Relat\'orio t\'ecnico descritivo sobre projeto de código livre} 
+
+%Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relatório da atvidade complementar \#4, na forma de relat\'orio simplificado.
+
+%Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.
+
+O objetivo deste trabalho é proporcionar uma visão geral de como é organizado um projeto open-source e quais são suas principais características que regem o seu desenvolvimento.
+
+\subsection{Descrição do projeto}
+
+
+O Arduino IDE é um ambiente de desenvolvimento open-source utilizado para programar uma família de placas de hardware também open-source que se tornaram extremamente populares por facilitarem e de certa forma unificarem o desenvolvimento de pequenos e médios projetos. Este IDE é utilizado das mais diversas formas, desde hobistas e alunos de ensino médio até pesquisadores que buscam uma ferramenta simplificada e relativamente poderosa para desenvolver seus projetos.
+\\
+
+A proposta do projeto se torna ainda mais interessante pelo baixo custo envolvido e pela imensa comunidade que utiliza o conjunto IDE + hardware open-source do Arduino, facilitando o desenvolvimento de projetos devido ao grande número de tutoriais e fóruns que podem ser encontrados. 
+
+
+
+\section{Caracterização do projeto de código livre} 
+%Pesquise sobre o projeto para responder as seguintes questões.
+
+
+\subsection{Desenvolvimento}
+
+
+\begin{itemize}
+\item Existe um local dedicado para o desenvolvimento?
+	\subitem Atualmente não existe um lugar fixo e dedicado para o desenvolvimento do IDE.
+\\
+\item É possível extrair o atual código fonte a partir de um repositório público de código fonte?
+	\subitem Sim, todo o código fonte pode ser obtido a partir do GitHub no link https://github.com/arduino.
+\\
+\item Quão grande é o código?
+	\subitem O pacote completo que pode ser obtido no GitHub possui em torno de 257 MB e o tamanho do código em linhas é difícil de ser definido uma vez que são inúmeros arquivos.
+\\
+\item Quais são as principais linguagens de programação?
+	\subitem Java, C e C++. Lembrando que a interface foi derivada do Processing (linguagem designer-friendly) e do Wiring.
+\\
+\item A utilização do pacote depende de algum outro software proprietário ou de código fonte aberto?
+	\subitem Não, nem ao menos de um sistema operacional proprietário uma vez que o IDE funciona inclusive em diversas distribuições Linux que também são open-source
+\\
+\item É possível calcular o número de \textit{downloads} ou usuários de uma versão em particular?
+	\subitem Devido ao modo como o software é distribuido livremente chega a ser quase impossível saber o alcance que ele tem, principalmente porque não é preciso se cadastrar ou ter uma conexção com a internet para utilizar.
+\\
+\end{itemize}
+
+\subsection{Licença Software Livre}
+
+
+\begin{itemize}
+\item Quem são os patrocinadores que contribuem para a sustentabilidade do projeto?
+\subitem O projeto é sustentado financeiramente pela compra das placas no site oficial e por doações.
+\\
+\item Quem detém os direitos autorais do código?
+\subitem O projeto é aberto e ninguém detém os direitos autorais do código desenvolvido para o IDE, porém o time principal de desenvolvimento pode ser resumido à Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, Daniela Antonietti e David A. Mellis.
+\\
+\item O projeto está sob qual tipo de licença de código aberto?
+\subitem O código do IDE está sob a licensa GPL e as bibliotecas em C/C++ do microcontrolador sob LGPL
+\\
+\item Por que os responsáveis pelo projeto escolheram a licença de código aberto?
+\subitem Para universalizar o acesso ao código e promover uma maior liberdade no uso do IDE, o fato da organização que coordena o desenvolvimento do IDE ser sem fins lucrativos facilitou essa escolha também.
+\end{itemize}
+
+\subsection{Governança}
+
+
+\begin{itemize}
+\item Existem quantos desenvolvedores alocados para o projeto?
+\subitem Existem seis principais, porém a comunidade é bem vinda para colaborar.
+\\
+\item Quantos \textit{committers}, também conhecidos por desenvolvedores que podem realizar mudanças propostas, o projeto possui?
+\subitem Existem atualmente 64 contribuidores.
+\\
+\item O que você pode dizer sobre o modelo de governança de código fonte aberto?
+\subitem O modelo adotado é muito interessante pois permite que a comunidade colabore muito para o desenvolvimento do IDE e é fechado o bastante para evitar que saia do controle uma vez que os commits dependem da aprovação de poucos desenvolvedores.
+\\
+\end{itemize}
+
+\subsection{Manutenção}
+
+
+\begin{itemize}
+\item Gerenciamento de \textit{releases}: Qual o número e frequência de \textit{releases}?
+\subitem Até agora foram realizados 47 releases com um intervalo médio de um release a cada mês, variando a frequência ao longo do ano.
+\\
+\item Comunicação: Existe um canal de comunicação útil e ativo para a comunidade / suporte ao usuário?
+\subitem Sim, a página oficial do Arduino informa um grupo de e-mail dos desenvolvedores (https://groups.google.com/a/arduino.cc/forum/?fromgroups!forum/developers) e ainda conta com um fórum muito ativo.
+\\
+\item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correção?
+\subitem Existe, até o momento 1186 bugs foram corrigidos e existem 817 pendentes de acordo com o GitHub.
+\\
+\item Existe um plano de metas para planos futuros? Existe evidência que o plano de metas foi utilizado no passado?
+\subitem Existe uma seção de milestones no Github que mostra que o desenvolvimento passou por várias fases já e que apesar de muitos dos problemas ainda não terem sido resolvidos completamente, a evolução do projeto é notável.
+\\
+\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?
+\subitem O site oficial informa que existem diversos programas de treinamento, muitos deles não oficiais inclusive, e linka alguns na sua página de contato e dúvidas. A consulta recomendada pelo site é o acesso ao fórum para dúvidas gerais ou o contato com os desenvolvedores pela lista de e-mail fornecida. Prestadores de serviços não foram citados.
+\\
+\end{itemize}
+        
+
+\par\vspace{\baselineskip}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
