@@ -40,8 +40,9 @@
 
 \usepackage{fancyhdr} % Required to customize headers
 \usepackage[brazil]{babel}
-\usepackage[latin1]{inputenc}
-%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{pstricks}
 \usepackage{subfigure}
@@ -72,9 +73,9 @@
 
 \fancyhead[L]{\begin{tabular}{l r | l r} % The header is a table with 4 columns
 \textbf{2S/2014} & EA976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
-\textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 27/10/14 \\ % Job number and last updated date
+\textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 30/11/14 \\ % Job number and last updated date
 \textbf{Professor:} & Christian E. Rothenberg & \textbf{Assunto:} & Caracterização  projeto \textit{open source}  \\ % Version and reviewed date
-\textbf{Projeto:} & Nome projeto open source & \textbf{Autor:} & Nome Aluno (RA: XXXXXX) \\ % Designer and reviewer
+\textbf{Projeto:} & Arduino IDE & \textbf{Autor:} & Igor Frederico Boff Alves (RA: 138521) \\ % Designer and reviewer
 \end{tabular}}
 
 %----------------------------------------------------------------------------------------
@@ -89,18 +90,24 @@
 
 \section{Relat\'orio t\'ecnico descritivo sobre projeto de código livre} 
 
-Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relatório da atvidade complementar \#4, na forma de relat\'orio simplificado. 
+%Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relatório da atvidade complementar \#4, na forma de relat\'orio simplificado.
 
-Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.\\
+%Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.
+
+O objetivo deste trabalho é proporcionar uma visão geral de como é organizado um projeto open-source e quais são suas principais características que regem o seu desenvolvimento.
 
 \subsection{Descrição do projeto}
 
-Descreva brevemente o tipo de software desenvolvido no projeto, para que serve, quem usa, etc.
+
+O Arduino IDE é um ambiente de desenvolvimento open-source utilizado para programar uma família de placas de hardware também open-source que se tornaram extremamente populares por facilitarem e de certa forma unificarem o desenvolvimento de pequenos e médios projetos. Este IDE é utilizado das mais diversas formas, desde hobistas e alunos de ensino médio até pesquisadores que buscam uma ferramenta simplificada e relativamente poderosa para desenvolver seus projetos.
+\\
+
+A proposta do projeto se torna ainda mais interessante pelo baixo custo envolvido e pela imensa comunidade que utiliza o conjunto IDE + hardware open-source do Arduino, facilitando o desenvolvimento de projetos devido ao grande número de tutoriais e fóruns que podem ser encontrados. 
 
 
 
 \section{Caracterização do projeto de código livre} 
-Pesquise sobre o projeto para responder as seguintes questões.
+%Pesquise sobre o projeto para responder as seguintes questões.
 
 
 \subsection{Desenvolvimento}
@@ -108,11 +115,23 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 \begin{itemize}
 \item Existe um local dedicado para o desenvolvimento?
+	\subitem Atualmente não existe um lugar fixo e dedicado para o desenvolvimento do IDE.
+\\
 \item É possível extrair o atual código fonte a partir de um repositório público de código fonte?
+	\subitem Sim, todo o código fonte pode ser obtido a partir do GitHub no link https://github.com/arduino.
+\\
 \item Quão grande é o código?
+	\subitem O pacote completo que pode ser obtido no GitHub possui em torno de 257 MB e o tamanho do código em linhas é difícil de ser definido uma vez que são inúmeros arquivos.
+\\
 \item Quais são as principais linguagens de programação?
+	\subitem Java, C e C++. Lembrando que a interface foi derivada do Processing (linguagem designer-friendly) e do Wiring.
+\\
 \item A utilização do pacote depende de algum outro software proprietário ou de código fonte aberto?
+	\subitem Não, nem ao menos de um sistema operacional proprietário uma vez que o IDE funciona inclusive em diversas distribuições Linux que também são open-source
+\\
 \item É possível calcular o número de \textit{downloads} ou usuários de uma versão em particular?
+	\subitem Devido ao modo como o software é distribuido livremente chega a ser quase impossível saber o alcance que ele tem, principalmente porque não é preciso se cadastrar ou ter uma conexção com a internet para utilizar.
+\\
 \end{itemize}
 
 \subsection{Licença Software Livre}
@@ -120,9 +139,16 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 \begin{itemize}
 \item Quem são os patrocinadores que contribuem para a sustentabilidade do projeto?
+\subitem O projeto é sustentado financeiramente pela compra das placas no site oficial e por doações.
+\\
 \item Quem detém os direitos autorais do código?
+\subitem O projeto é aberto e ninguém detém os direitos autorais do código desenvolvido para o IDE, porém o time principal de desenvolvimento pode ser resumido à Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, Daniela Antonietti e David A. Mellis.
+\\
 \item O projeto está sob qual tipo de licença de código aberto?
+\subitem O código do IDE está sob a licensa GPL e as bibliotecas em C/C++ do microcontrolador sob LGPL
+\\
 \item Por que os responsáveis pelo projeto escolheram a licença de código aberto?
+\subitem Para universalizar o acesso ao código e promover uma maior liberdade no uso do IDE, o fato da organização que coordena o desenvolvimento do IDE ser sem fins lucrativos facilitou essa escolha também.
 \end{itemize}
 
 \subsection{Governança}
@@ -130,8 +156,14 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 \begin{itemize}
 \item Existem quantos desenvolvedores alocados para o projeto?
+\subitem Existem seis principais, porém a comunidade é bem vinda para colaborar.
+\\
 \item Quantos \textit{committers}, também conhecidos por desenvolvedores que podem realizar mudanças propostas, o projeto possui?
+\subitem Existem atualmente 64 contribuidores.
+\\
 \item O que você pode dizer sobre o modelo de governança de código fonte aberto?
+\subitem O modelo adotado é muito interessante pois permite que a comunidade colabore muito para o desenvolvimento do IDE e é fechado o bastante para evitar que saia do controle uma vez que os commits dependem da aprovação de poucos desenvolvedores.
+\\
 \end{itemize}
 
 \subsection{Manutenção}
@@ -139,10 +171,20 @@ Pesquise sobre o projeto para responder as seguintes questões.
 
 \begin{itemize}
 \item Gerenciamento de \textit{releases}: Qual o número e frequência de \textit{releases}?
+\subitem Até agora foram realizados 47 releases com um intervalo médio de um release a cada mês, variando a frequência ao longo do ano.
+\\
 \item Comunicação: Existe um canal de comunicação útil e ativo para a comunidade / suporte ao usuário?
+\subitem Sim, a página oficial do Arduino informa um grupo de e-mail dos desenvolvedores (https://groups.google.com/a/arduino.cc/forum/?fromgroups!forum/developers) e ainda conta com um fórum muito ativo.
+\\
 \item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correção?
+\subitem Existe, até o momento 1186 bugs foram corrigidos e existem 817 pendentes de acordo com o GitHub.
+\\
 \item Existe um plano de metas para planos futuros? Existe evidência que o plano de metas foi utilizado no passado?
-\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?         
+\subitem Existe uma seção de milestones no Github que mostra que o desenvolvimento passou por várias fases já e que apesar de muitos dos problemas ainda não terem sido resolvidos completamente, a evolução do projeto é notável.
+\\
+\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?
+\subitem O site oficial informa que existem diversos programas de treinamento, muitos deles não oficiais inclusive, e linka alguns na sua página de contato e dúvidas. A consulta recomendada pelo site é o acesso ao fórum para dúvidas gerais ou o contato com os desenvolvedores pela lista de e-mail fornecida. Prestadores de serviços não foram citados.
+\\
 \end{itemize}
         
 
